@@ -1,2 +1,2 @@
-root: /blog-cn
+baseurl: /blog-cn
 permalink: /:title
