@@ -1,0 +1,25 @@
+---
+layout: default
+title: 当然我在扯淡
+---
+
+<blockquote>
+<a href="http://www.mindomo.com/view.htm?m=4006528863454a93b643329beae2729a">思维导图目录</a>
+</blockquote>
+
+<blockquote>
+<a href="http://en.yinwang.org">部分英文博客文章</a>
+</blockquote>
+
+<blockquote>
+<a href="http://www.yinwang.org/atom.xml">ATOM</a>
+</blockquote>
+
+
+<ul>
+　　{% for post in site.posts %}
+　　　　<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
+
+<img class="displayed" src="http://www.yinwang.org/images/yin-barcode.gif">
